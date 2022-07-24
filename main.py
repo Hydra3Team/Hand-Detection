@@ -14,7 +14,7 @@ import time
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_hands = mp.solutions.hands
-
+"""
 #for static image:
 
 # must be .png / .jpg only
@@ -67,7 +67,7 @@ with mp_hands.Hands(
             hand_world_landmarks,
             mp_hands.HAND_CONNECTIONS,
             azimuth=5)
-
+"""
 
 
 # for webcam input:
